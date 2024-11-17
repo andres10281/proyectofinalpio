@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+header img {
+    height: 60px; 
+    width: auto; 
+    margin-bottom: 10px; 
+    display: block; 
+}
+
+
+@media (max-width: 576px) {
+    header img {
+        height: 50px; 
+    }
+}
